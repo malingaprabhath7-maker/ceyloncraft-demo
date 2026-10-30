@@ -1,1 +1,0 @@
-import{b as a}from"./Layout.astro_astro_type_script_index_0_lang.C3YMbEoi.js";function t(){const n=a();let d=0;document.querySelectorAll("#saved-grid [data-product]").forEach(e=>{e.hidden=!n.includes(e.dataset.product),e.hidden||d++}),document.getElementById("saved-empty").hidden=d>0}document.addEventListener("cc:saved",t);t();

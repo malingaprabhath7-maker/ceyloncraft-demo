@@ -1,0 +1,1 @@
+import{l as a,h as d}from"./live.C-7ojeOn.js";import{r as o}from"./Layout.astro_astro_type_script_index_0_lang.OnzKg25b.js";a().then(s=>{const n=document.getElementById("featured"),r=s?.filter(t=>t.featured).slice(0,8);if(!r?.length)return;const e=n.dataset;n.innerHTML=r.map(t=>d(t,{newIn:e.newIn,save:e.save,saved:e.saved})).join(""),o()});
